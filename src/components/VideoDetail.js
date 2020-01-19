@@ -9,14 +9,19 @@ const VideoDetail = props => {
     if(!video) {
         return<div className="loading">Loading video.....</div>
     }
-    const videoItem = video;
+    const videoItem = video.id.videoId;
 
 
-    return <div className="embed-responsive embed-responsive-21by9 frame">
+    return <div>
+    <div className="embed-responsive embed-responsive-21by9 frame">
     
         <Iframe className="embed-responsive-item" src={`https://www.youtube.com/embed/${videoItem}`}/> 
-        {/* <p>{video.snippet.title}</p> */}
 
+    </div>
+    
+        <h3>{video.snippet.title}</h3>
+
+    
     </div>
 }
 
