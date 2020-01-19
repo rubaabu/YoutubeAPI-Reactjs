@@ -1,0 +1,24 @@
+.search {
+    margin: auto;
+    padding: 10px;
+    width: 900px;
+     
+}
+
+.list-group {
+    margin: 10px;
+}
+
+.frame {
+    margin: 10px;
+    height:500px;
+    width:880px
+
+}
+
+.loading {
+    width:900px;
+    text-align: center;
+    position: flex;
+    margin-top:200px
+}
